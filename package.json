@@ -1,0 +1,19 @@
+{
+  "name": "0xnotes-socket",
+  "version": "1.0.0",
+  "main": "dist/app.js",
+  "author": "brian-the-dev",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc && yarn run env-cmd node dist/app.js"
+  },
+  "dependencies": {
+    "@supabase/postgrest-js": "^1.1.0",
+    "env-cmd": "^10.1.0",
+    "jose": "^4.11.0",
+    "socket.io": "^4.5.3"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}
